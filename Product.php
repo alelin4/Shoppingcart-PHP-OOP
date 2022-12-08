@@ -15,19 +15,23 @@ function __construct($id, $title, $price, $inStock){
 }
     // TODO Skriv getters för alla properties
 public function getId(){
+    
     return $this -> id;
 
 }
 public function getTitle(){
+
     return $this -> title;
 
 }
 
 public function getPrice(){
+
     return $this -> price;
 
 }
 public function getInStock(){
+
     return $this -> inStock;
 
 }

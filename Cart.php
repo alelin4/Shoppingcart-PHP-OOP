@@ -8,6 +8,7 @@ class Cart
  public function getItems(){
 
     return $this ->items;
+    
  }
     /*
      Skall lägga till en produkt i kundvagnen genom att

@@ -1,5 +1,6 @@
 <?php
 
+
 //Importerar classer
 require_once "Product.php";
 require_once "Cart.php";

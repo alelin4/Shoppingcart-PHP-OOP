@@ -10,9 +10,12 @@ class CartItem
     // TODO Skriv en konstruktor som sätter alla properties
 
     function __construct($product, $quantity){
+
         $this -> product = $product;
         $this -> quantity = $quantity;
+
     }
+
     // TODO Skriv getters för alla properties
 
     public function getProduct(){
@@ -32,6 +35,7 @@ class CartItem
     public function increaseQuantity()
     {
         $increase=1;
+        
         return $increase;
     }
 }
